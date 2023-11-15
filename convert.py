@@ -4,6 +4,7 @@ import os
 
 def start():
     global input_disk_type, output_disk_type
+    # 创建文件夹
     if not os.path.exists("./convertDisks"):
         os.mkdir("convertDisks")
     else:
