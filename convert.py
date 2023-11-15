@@ -4,8 +4,14 @@ import os
 
 def start():
     global input_disk_type, output_disk_type
-    os.mkdir("convertDisks")
-    os.mkdir("convertedDisks")
+    if not os.path.exists("./convertDisks"):
+        os.mkdir("convertDisks")
+    else:
+        pass
+    if not os.path.exists("./convertedDisks"):
+        os.mkdir("convertedDisks")
+    else:
+        pass
     print("##################################################")
     print("虚拟磁盘类型批量转换工具")
     print("作者：haha44444")
@@ -52,3 +58,4 @@ def main():
 if __name__ == '__main__':
     start()
     main()
+    print("转换完成，转换后的磁盘文件输出到convertedDisks文件夹中")
