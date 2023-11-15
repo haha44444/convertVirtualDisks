@@ -4,6 +4,8 @@ import os
 
 def start():
     global input_disk_type, output_disk_type
+    os.mkdir("convertDisks")
+    os.mkdir("convertedDisks")
     print("##################################################")
     print("虚拟磁盘类型批量转换工具")
     print("作者：haha44444")
