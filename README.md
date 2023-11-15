@@ -9,3 +9,7 @@
 4. 准备要转换的文件，放在`convertDisks`文件夹中
 5. 开始转换：运行程序 `python convert.py`
 6. 转换后的文件会输出到`convertedDisks`文件夹中
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=haha44444/convertVirtualDisks&type=Date)](https://star-history.com/#haha44444/convertVirtualDisks&Date)
