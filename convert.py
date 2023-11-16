@@ -31,7 +31,7 @@ def start():
     print("转换后是否删除转换前的文件")
     print("是:0   否:1")
     del_input_file_num = input()
-    if del_input_file_num == 0:
+    if del_input_file_num == "0":
         del_input_file = True
     else:
         del_input_file = False
