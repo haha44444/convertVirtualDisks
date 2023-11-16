@@ -15,6 +15,7 @@ def start():
         pass
     print("##################################################")
     print("虚拟磁盘类型批量转换工具")
+    print("https://github.com/haha44444/convertVirtualDisks")
     print("作者：haha44444")
     print("支持以下磁盘类型的转换")
     print("vhd、vmdk、qcow2、raw、vhdx、qcow、vdi、qed")
