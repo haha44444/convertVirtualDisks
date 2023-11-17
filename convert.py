@@ -55,8 +55,9 @@ def convert(disk_file_name):
 
 
 def main():
-    for i in range(len(convert_disks_file_name_list())):
-        file_name = convert_disks_file_name_list()[i]
+    file_list = convert_disks_file_name_list()
+    for i in range(len(file_list)):
+        file_name = file_list[i]
         # 去除扩展名
         file_name_without_suffix = file_name.split(".", 1)[0]
         # 拼接完整命令
