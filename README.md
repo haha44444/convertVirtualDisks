@@ -1,4 +1,4 @@
-### [English] | [中文简体](https://github.com/haha44444/convertVirtualDisks/README_CN.md)
+### English | [中文简体](https://github.com/haha44444/convertVirtualDisks/README_CN.md)
 # Virtual disk type batch conversion tool
 * Convert via qemu-img (Important! You need to install the qemu-img tool and add environment variables!)
 * Supports mutual conversion of the following files: vhd, vmdk, qcow2, raw, vhdx, qcow, vdi, qed

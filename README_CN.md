@@ -1,4 +1,4 @@
-### [English](https://github.com/haha44444/convertVirtualDisks/blob/master/README.md) | [中文简体]
+### [English](https://github.com/haha44444/convertVirtualDisks/blob/master/README.md) | 中文简体
 # 虚拟磁盘类型批量转换工具
 * 通过qemu-img进行转换（重要！需要安装qemu-img工具并添加环境变量！）
 * 支持以下文件互转 vhd、vmdk、qcow2、raw、vhdx、qcow、vdi、qed
